@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "routes": [
+      {
+          "src": "/hp/(.*)",
+          "dest": "http://175.178.98.64/admin/$1"
+      },
+      {
+          "src": "/hongpeng/(.*)",
+          "dest": "http://175.178.98.64/admin/$1"
+      }
+  ]
+}
