@@ -2,12 +2,12 @@
   "version": 2,
   "routes": [
       {
-          "src": "/hp/(.*)",
+          "src": "/admin/(.*)",
           "dest": "http://175.178.98.64/admin/$1"
       },
       {
-          "src": "/hongpeng/(.*)",
-          "dest": "http://175.178.98.64/admin/$1"
+          "src": "/static/(.*)",
+          "dest": "http://175.178.98.64/static/$1"
       }
   ]
 }
